@@ -7,15 +7,18 @@ const Dashboard = () => {
   return (
     <div className="dashboard">
       <div id="dexscreener-embed">
-        <iframe
-          src="https://dexscreener.com/solana/Ee5DkuPTMtwfiG25RCiib4kW7geSYS7Q3mnGNQTPY3CY?embed=1&trades=0"
+        <iframe 
+          src="https://dexscreener.com/solana/FJ6MdHqFwmnzx2g19s6X8NDbF7gZCnU2yE1rKd9vbnwf?embed=1&theme=dark&trades=0&info=0" 
           title="Dexscreener Chart"
-          frameBorder="0"
         ></iframe>
       </div>
-      <img src={iamhere} alt="Loading Screen" className="loading-image funny-image" />
-      <div className="desktop">
-        <img src={giphy} alt="Desktop" className="desktop-image funny-image" />
+      <div className="card-container">
+        <div className="card">
+          <img src={iamhere} alt="Loading Screen" className="card-image" />
+        </div>
+        <div className="card">
+          <img src={giphy} alt="Desktop" className="card-image" />
+        </div>
       </div>
     </div>
   );
