@@ -19,7 +19,7 @@ const Header = () => {
         </nav>
         <div className="social-icons">
         <a href="https://x.com/cunterbiden_sol" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-        <a href="https://t.me/" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
+        <a href="https://t.me/cunter_biden/7" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         {/* <a href="https://www.tiktok.com/@wafflesj15?_t=8mRgnzllQIf&_r=1" target="_blank" rel="noopener noreferrer"><FaTiktok /></a> */}
       </div>
