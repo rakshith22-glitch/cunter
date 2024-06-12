@@ -48,6 +48,7 @@ const Header = () => {
         </div>
       </div>
       <div className="header-content">
+         <h2>$5Y9Y8J72hDUZvDyBKhvCQkckjXPZXy7YWp5oGGk8pump</h2>
         <Link to="/dashboard" className="nav-button">
           <p className="site-title">$CUNTER</p>
         </Link>
