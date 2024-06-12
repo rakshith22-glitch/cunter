@@ -58,7 +58,7 @@ body {
 .nav-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #ff6f61;
+  background-color: #61a3ff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -134,7 +134,7 @@ body {
   position: relative;
   border-radius: 15px;
   margin: 20px;
-
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .card-container {
